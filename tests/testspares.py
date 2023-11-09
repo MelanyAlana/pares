@@ -4,8 +4,8 @@ from src.logica.EcuacionSegundoGrado import EcuacionSegundoGrado
 class PruebaEcuacionSegundoGrado(unittest.TestCase):
     def test_ecuacionSegundoGrado_parametrosNumericos_raicesReales(self):
         # arrange
-        a = 3
-        b = -5
+        a = 3.0
+        b = -5.0
         c = 1
         x1Esperado = 1.43
         x2Esperado = 0.23
